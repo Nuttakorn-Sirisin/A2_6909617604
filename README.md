@@ -1,5 +1,5 @@
 # A2 Individual Responsive Learning Portfolio
-เว็บไซต์ Learning Portfolio ของณฐกร ศิริศิลป์ (รหัสนักศึกษา 6909617604)
+เว็บไซต์ Learning Portfolio ณฐกร ศิริศิลป์ (รหัสนักศึกษา 6909617604)
 พัฒนาต่อยอดจาก A1 โดยปรับปรุงให้ใช้ Bootstrap และรองรับการแสดงผลแบบ Responsive
 ทั้งบน Desktop และ Mobile
 
