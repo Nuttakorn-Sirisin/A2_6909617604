@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Learning Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <!-- แก้ไขพาธตรงนี้ให้อยู่ในโฟลเดอร์ css/ -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,10 +18,12 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
             <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
+
     <header id="about" class="hero-section py-5">
       <div class="container">
         <div class="row align-items-center gy-4">
@@ -46,7 +47,139 @@
       </div>
     </header>
 
-    
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">My Portfolio</h2>
+        <div class="row g-4 justify-content-center">
+          
+          <div class="col-12">
+            <div class="card shadow-sm border-0 overflow-hidden">
+              <div class="row g-0">
+                <div class="col-md-4 bg-dark text-white d-flex flex-column align-items-center justify-content-center p-4 text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-github mb-3" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                  <p class="small text-muted mb-3">Issue-driven Workflow & Source Code</p>
+                  <a href="https://github.com/Nuttakorn-Sirisin/A2_6909617604" target="_blank" class="btn btn-outline-light btn-sm w-75">
+                    View GitHub Repository
+                  </a>
+                </div>
+
+                <div class="col-md-8">
+                  <div class="card-body p-4 d-flex flex-column justify-content-between h-100">
+                    <div>
+                      <span class="badge bg-primary mb-2">Course Assignment</span>
+                      <h4 class="card-title fw-bold">A2 Individual Responsive Learning Portfolio</h4>
+                      <p class="text-muted small mb-2"><strong>Date:</strong> Oct 11, 2026 | <strong>Role:</strong> Developer (วางโครงสร้างและออกแบบเว็บไซต์)</p>
+                      
+                      <p class="card-text mb-3"><strong>Description:</strong> พัฒนาเว็บไซต์ Learning Portfolio แบบ Responsive ด้วย Bootstrap และจัดการเวอร์ชันด้วย Git/GitHub ผ่านกระบวนการ Issue-driven workflow</p>
+                      
+                      <div class="mb-3">
+                        <strong class="d-block mb-1">Skills:</strong>
+                        <span class="badge bg-secondary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span>
+                        <span class="badge bg-secondary">Bootstrap</span>
+                        <span class="badge bg-secondary">Git/GitHub</span>
+                        <span class="badge bg-secondary">Responsive Design</span>
+                      </div>
+                    </div>
+
+                    <div class="bg-light p-3 rounded border mt-2">
+                      <h6 class="fw-bold mb-2 text-dark">Reflection</h6>
+                      <ul class="small mb-0 ps-3 text-muted">
+                        <li><strong>What I did:</strong> พัฒนาเว็บต่อจาก A1, เพิ่มส่วน My Portfolio ด้วย Bootstrap Cards และใช้ Issue-driven workflow บน GitHub</li>
+                        <li><strong>What I learned:</strong> เข้าใจการใช้ Bootstrap Grid และ Utility classes ในการทำ Responsive Web Design ให้รองรับหลายขนาดหน้าจอ</li>
+                        <li><strong>Challenge:</strong> การจัดโครงสร้างไฟล์และการจัดการ Commit History ให้ตรงตามข้อกำหนดของรายวิชา</li>
+                        <li><strong>Next step:</strong> ต้องการศึกษาการทำ Deployment บน GitHub Pages และการเขียนโค้ด CSS ขั้นสูงเพิ่มเติม</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="card shadow-sm border-0 overflow-hidden">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div id="aorusCarousel" class="carousel slide h-100" data-bs-ride="carousel" style="min-height: 280px;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#aorusCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#aorusCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#aorusCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                      <div class="carousel-item active h-100">
+                        <img src="media/activity1.jpg" class="d-block w-100 h-100" alt="Aorus Event 1" style="object-fit: cover; min-height: 320px;">
+                      </div>
+                      <div class="carousel-item h-100">
+                        <img src="media/activity2.1.jpg" class="d-block w-100 h-100" alt="Aorus Event 2" style="object-fit: cover; min-height: 320px;">
+                      </div>
+                      <div class="carousel-item h-100">
+                        <img src="media/activity3.jpg" class="d-block w-100 h-100" alt="Aorus Event 3" style="object-fit: cover; min-height: 320px;">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#aorusCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aorusCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-8">
+                  <div class="card-body p-4 d-flex flex-column justify-content-between h-100">
+                    <div>
+                      <span class="badge bg-success mb-2">Activity / Workshop</span>
+                      <h4 class="card-title fw-bold">AORUS AI Experience Campus Roadshow 2026</h4>
+                      <p class="text-muted small mb-2"><strong>Date:</strong> Oct 11, 2026 | <strong>Role:</strong> Participant (เข้าร่วมฟังบรรยาย)</p>
+                      
+                      <p class="card-text mb-3"><strong>Description:</strong> เข้าร่วมเวิร์กช็อป AORUS AI เรียนรู้การรันโมเดลบน Laptop ด้วย Ollama, การใช้งาน ComfyUI และรับฟังบรรยายพิเศษจากพี่เปา iHAVECPU</p>
+                      
+                      <div class="mb-3">
+                        <strong class="d-block mb-1">Skills:</strong>
+                        <span class="badge bg-secondary">AI & Machine Learning</span>
+                        <span class="badge bg-secondary">Ollama & ComfyUI</span>
+                        <span class="badge bg-secondary">Technology Awareness</span>
+                      </div>
+                    </div>
+
+                    <div class="bg-light p-3 rounded border mt-2">
+                      <h6 class="fw-bold mb-2 text-dark">Reflection</h6>
+                      <ul class="small mb-0 ps-3 text-muted">
+                        <li><strong>What I did:</strong> เข้าร่วมเวิร์กช็อป ทดลองรัน AI บนเครื่องเดโม GIGABYTE และร่วมพูดคุยกับพี่เปา IHAVECPU</li>
+                        <li><strong>What I learned:</strong> ได้เปิด 2 มุมมองใหม่เกี่ยวกับการใช้งาน Frontier AI และการรันโมเดล AI ท้องถิ่นบนอุปกรณ์พกพาโดยไม่ต้องพึ่งพา Cloud</li>
+                        <li><strong>Challenge:</strong> การทำความเข้าใจเครื่องมือทางเทคนิคใหม่ๆ ที่มีความซับซ้อนในเวลาจำกัดระหว่างเวิร์กช็อป</li>
+                        <li><strong>Next step:</strong> นำความรู้เรื่องการใช้งาน AI และโมเดลภาษามาประยุกต์ใช้ช่วยในการพัฒนาโปรเจกต์ซอฟต์แวร์และการเขียนโค้ด</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <h5 class="fw-bold mb-3">Contact Me</h5>
+        <p class="text-muted small mb-3">ช่องทางการติดต่อ</p>
+        <div class="d-flex justify-content-center gap-3 mb-3">
+          <a href="mailto:nuttakorn.siri@dome.tu.ac.th" class="btn btn-outline-light btn-sm">Email: nuttakorn.siri@dome.tu.ac.th</a>
+          <a href="https://instagram.com/mc.clv_" target="_blank" class="btn btn-outline-light btn-sm">Instagram: mc.clv_</a>
+        </div>
+        <p class="text-muted small mb-0">&copy; 2026 Nuttakorn Sirisin. Thammasat University. All rights reserved.</p>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
